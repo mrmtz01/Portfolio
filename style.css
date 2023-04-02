@@ -1,0 +1,76 @@
+nav {
+    background-color: #2c2929;
+    padding: 10px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 0.25rem;
+    margin-right: 10px;
+    
+  }
+  
+  .nav-link:hover {
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .nav-link:focus,
+  .nav-link.active {
+    background-color: #fff;
+    color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+
+  .container-fluid {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #perfil {
+    width: 400px; 
+    height: 300px; 
+    display: block; 
+    margin: auto;
+  }
+
+ #sobre-mi {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+ }
+
+ #habilidades {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+ }
+
+ #formacion-educativa {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+ }
+
+ #experiencias-personales {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+ }
+
+ #proyectos-personales {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+ }
